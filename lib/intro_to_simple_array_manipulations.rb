@@ -15,21 +15,15 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  array.pop_with_args
+  array.pop(-1)
+  array.pop(-1)
 end
 
-def retrieve_element_from_index(array, index_number)
-  array[index_number]
+def using_shift(array)
+  array.shift
 end
 
-def retrieve_first_element_from_array(array)
-  array[0]
+def shift_with_args(array)
+  array.shift(2)
 end
 
-def retrieve_last_element_from_array(array)
-  array[-1]
-end
-
-def update_element_from_index(array, index_number, element)
-array[1] = element
-end
