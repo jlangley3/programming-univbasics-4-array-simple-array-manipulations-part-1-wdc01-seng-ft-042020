@@ -6,15 +6,15 @@ def using_push(array, string)
   array.push(string)
 end
 
-def add_element_to_start_of_array(array, element)
-  array.unshift element
+def using_unshift(array, string)
+  array.unshift(string)
 end
 
-def remove_element_from_end_of_array(array)
+def using_pop(array)
   array.pop
 end
 
-def remove_element_from_start_of_array(array)
+def pop_with_args(array)
   array.shift
 end
 
