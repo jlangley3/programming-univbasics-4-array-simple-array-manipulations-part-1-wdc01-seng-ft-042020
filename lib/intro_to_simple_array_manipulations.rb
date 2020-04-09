@@ -1,13 +1,9 @@
-def create_an_empty_array
-  []
-end
-
-def create_an_array
+def array
   array = ["tom", "john", "jesse", "sam"]
 end
 
-def add_element_to_end_of_array(array, element)
-  array << element
+def using_push(array, element)
+  array.push
 end
 
 def add_element_to_start_of_array(array, element)
