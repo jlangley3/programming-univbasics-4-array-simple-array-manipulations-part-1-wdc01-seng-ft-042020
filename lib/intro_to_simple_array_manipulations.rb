@@ -15,7 +15,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  array.shift
+  array.pop_with_args
 end
 
 def retrieve_element_from_index(array, index_number)
