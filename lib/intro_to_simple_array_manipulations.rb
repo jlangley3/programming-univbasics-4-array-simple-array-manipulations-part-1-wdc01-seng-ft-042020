@@ -1,9 +1,9 @@
 def array
-  array = ["tom", "john", "jesse", "sam"]
+  array = ["string", "string", "string", "string"]
 end
 
-def using_push(array, element)
-  array.push
+def using_push(array, string)
+  array.push(string)
 end
 
 def add_element_to_start_of_array(array, element)
